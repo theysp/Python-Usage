@@ -10,7 +10,6 @@
 
     本工具依赖win32gui，这个模块相比其他如win32api的好处是可以直接pip安装。
     win32gui相比win32api没有提供setcursorpos的接口，其实是很好的，因为模拟鼠标按下并不需要真的去移动屏幕上的鼠标，而只需要在传递信息时带上预期的应点击位置即可。
-    饿了。。。 吃饭
 '''
 import win32gui
 import win32con
